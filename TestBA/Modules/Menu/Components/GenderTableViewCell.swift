@@ -23,13 +23,13 @@ class GenderTableViewCell: UITableViewCell {
     @IBAction func onSelectGender(_ sender: Any) {
         
         let index = scGender.selectedSegmentIndex
-        var gender  = "Mujer"
+        var gender  = "Femenino"
         if index == 0 {
             lastGender.text = gender
         }
         
         if index == 1 {
-            gender = "Hombre"
+            gender = "Masculino"
             lastGender.text = gender
         }
         handleSave?(gender)
