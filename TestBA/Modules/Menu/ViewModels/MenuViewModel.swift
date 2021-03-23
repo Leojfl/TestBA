@@ -11,6 +11,7 @@ class MenuViewModel: BaseViewModel {
 
     var data = BehaviorRelay<[MenuContentViewCell]>(value: [])
     var color = BehaviorRelay<UIColor?>(value: nil)
+    var itemsSelected: [MenuContentViewCell] = []
     
     public func loadData(){
         self.needsLoading.accept(true)
@@ -30,15 +31,35 @@ class MenuViewModel: BaseViewModel {
         self.data.accept(data)
         self.needsLoading.accept(false)
     }
+    
+    
+    public func isSelected(itemSelect: MenuContentViewCell) -> Bool{
+        let itemSelected = self.itemsSelected.first { (item) -> Bool in
+            return item.type == itemSelect.type
+        }
+        return itemSelected != nil
+    }
+    
+    
+    public func changeStatusItem(row: Int) {
+        let itemSelect = data.value[row]
+        if isSelected(itemSelect: itemSelect){
+            self.itemsSelected = self.itemsSelected .filter({ (item) -> Bool in
+                return item.type != itemSelect.type
+            })
+        }else{
+            self.itemsSelected.append(itemSelect)
+        }
+    }
 
 }
 
 struct MenuContentViewCell {
-    let type: MenuContent
+    let type: EnumMenuContent
     
 }
 
-enum MenuContent{
+enum EnumMenuContent{
     case camera
     case photo
     case fullName
@@ -64,6 +85,26 @@ enum MenuContent{
             return "Sexo (Masculino o femenino)"
         case .favoriteColor:
             return "Color favorito"
+        }
+    }
+    
+    
+    func getInt() -> Int{
+        switch self {
+        case .camera:
+            return 1
+        case .photo:
+            return 2
+        case .fullName:
+            return 3
+        case .phone:
+            return 4
+        case .birthday:
+            return 5
+        case .gender:
+            return 6
+        case .favoriteColor:
+            return 7
         }
     }
     

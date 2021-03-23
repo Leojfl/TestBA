@@ -18,7 +18,7 @@ class TextDB: Object {
     public static func getLastText(type: Int) -> String{
         let realm = try! Realm()
         let textDB = realm.objects(TextDB.self).filter("type = \(type)").last
-        return textDB?.text ?? ""
+        return textDB?.text ?? " "
     }
     
     public static func saveText(text:String ,type: Int){

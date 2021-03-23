@@ -8,22 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		3AF2729CDCC251E36BF47900 /* Pods_TestBA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570D1A1F25DBC3A97CD26915 /* Pods_TestBA.framework */; };
-		4E405BC226081DE900788E2D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BC126081DE900788E2D /* CameraViewController.swift */; };
-		4E405BC526081E1400788E2D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BC426081E1400788E2D /* PhotoViewController.swift */; };
-		4E405BC826081E4600788E2D /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BC726081E4600788E2D /* TextFieldViewController.swift */; };
-		4E405BCB26081E8F00788E2D /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BCA26081E8F00788E2D /* BirthdayViewController.swift */; };
-		4E405BCE26081EA500788E2D /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BCD26081EA500788E2D /* GenderViewController.swift */; };
-		4E405BD126081EBC00788E2D /* FavoriteColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BD026081EBC00788E2D /* FavoriteColorViewController.swift */; };
 		4E405BDC2608200F00788E2D /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BDB2608200F00788E2D /* TextFieldCustom.swift */; };
-		4E405BEC2608539B00788E2D /* TextFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BEB2608539B00788E2D /* TextFieldViewModel.swift */; };
 		4E405BF02608542100788E2D /* TextDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405BEF2608542100788E2D /* TextDB.swift */; };
-		4E405C2A26086B0A00788E2D /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C2926086B0A00788E2D /* BirthdayViewModel.swift */; };
-		4E405C2D26086B9300788E2D /* GenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C2C26086B9300788E2D /* GenderViewModel.swift */; };
 		4E405C302609362B00788E2D /* ColorDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C2F2609362B00788E2D /* ColorDB.swift */; };
-		4E405C332609396300788E2D /* ColorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C322609396300788E2D /* ColorViewModel.swift */; };
-		4E405C37260972D800788E2D /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C35260972D800788E2D /* ColorTableViewCell.swift */; };
-		4E405C38260972D800788E2D /* ColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E405C36260972D800788E2D /* ColorTableViewCell.xib */; };
 		4E405C3C260988B300788E2D /* MenuActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C3B260988B300788E2D /* MenuActionsViewController.swift */; };
+		4E405C4026098F0900788E2D /* MenuActionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C3F26098F0900788E2D /* MenuActionsViewModel.swift */; };
+		4E405C45260991D700788E2D /* CameraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C43260991D700788E2D /* CameraTableViewCell.swift */; };
+		4E405C46260991D700788E2D /* CameraTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E405C44260991D700788E2D /* CameraTableViewCell.xib */; };
+		4E405C4A260992DB00788E2D /* BithdayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C48260992DB00788E2D /* BithdayTableViewCell.swift */; };
+		4E405C4B260992DB00788E2D /* BithdayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E405C49260992DB00788E2D /* BithdayTableViewCell.xib */; };
+		4E405C50260999AA00788E2D /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C4E260999AA00788E2D /* TextFieldTableViewCell.swift */; };
+		4E405C51260999AA00788E2D /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E405C4F260999AA00788E2D /* TextFieldTableViewCell.xib */; };
+		4E405C5526099E5800788E2D /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C5326099E5800788E2D /* PhotoTableViewCell.swift */; };
+		4E405C5626099E5800788E2D /* PhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E405C5426099E5800788E2D /* PhotoTableViewCell.xib */; };
+		4E405C5A2609A21700788E2D /* GenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C582609A21700788E2D /* GenderTableViewCell.swift */; };
+		4E405C5B2609A21700788E2D /* GenderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E405C592609A21700788E2D /* GenderTableViewCell.xib */; };
+		4E405C5F2609A44D00788E2D /* ColorTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E405C5D2609A44D00788E2D /* ColorTableTableViewCell.swift */; };
+		4E405C602609A44D00788E2D /* ColorTableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E405C5E2609A44D00788E2D /* ColorTableTableViewCell.xib */; };
 		4E9CA5ED2606E92D00D9C921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CA5EC2606E92D00D9C921 /* AppDelegate.swift */; };
 		4E9CA5EF2606E92D00D9C921 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9CA5EE2606E92D00D9C921 /* SceneDelegate.swift */; };
 		4E9CA5F42606E92D00D9C921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9CA5F22606E92D00D9C921 /* Main.storyboard */; };
@@ -44,22 +45,23 @@
 
 /* Begin PBXFileReference section */
 		32B814419894BA8C94C5F1DB /* Pods-TestBA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBA.release.xcconfig"; path = "Target Support Files/Pods-TestBA/Pods-TestBA.release.xcconfig"; sourceTree = "<group>"; };
-		4E405BC126081DE900788E2D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		4E405BC426081E1400788E2D /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		4E405BC726081E4600788E2D /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
-		4E405BCA26081E8F00788E2D /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
-		4E405BCD26081EA500788E2D /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
-		4E405BD026081EBC00788E2D /* FavoriteColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteColorViewController.swift; sourceTree = "<group>"; };
 		4E405BDB2608200F00788E2D /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
-		4E405BEB2608539B00788E2D /* TextFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewModel.swift; sourceTree = "<group>"; };
 		4E405BEF2608542100788E2D /* TextDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDB.swift; sourceTree = "<group>"; };
-		4E405C2926086B0A00788E2D /* BirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
-		4E405C2C26086B9300788E2D /* GenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewModel.swift; sourceTree = "<group>"; };
 		4E405C2F2609362B00788E2D /* ColorDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDB.swift; sourceTree = "<group>"; };
-		4E405C322609396300788E2D /* ColorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewModel.swift; sourceTree = "<group>"; };
-		4E405C35260972D800788E2D /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
-		4E405C36260972D800788E2D /* ColorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorTableViewCell.xib; sourceTree = "<group>"; };
 		4E405C3B260988B300788E2D /* MenuActionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuActionsViewController.swift; sourceTree = "<group>"; };
+		4E405C3F26098F0900788E2D /* MenuActionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuActionsViewModel.swift; sourceTree = "<group>"; };
+		4E405C43260991D700788E2D /* CameraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTableViewCell.swift; sourceTree = "<group>"; };
+		4E405C44260991D700788E2D /* CameraTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraTableViewCell.xib; sourceTree = "<group>"; };
+		4E405C48260992DB00788E2D /* BithdayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BithdayTableViewCell.swift; sourceTree = "<group>"; };
+		4E405C49260992DB00788E2D /* BithdayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BithdayTableViewCell.xib; sourceTree = "<group>"; };
+		4E405C4E260999AA00788E2D /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		4E405C4F260999AA00788E2D /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		4E405C5326099E5800788E2D /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		4E405C5426099E5800788E2D /* PhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoTableViewCell.xib; sourceTree = "<group>"; };
+		4E405C582609A21700788E2D /* GenderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderTableViewCell.swift; sourceTree = "<group>"; };
+		4E405C592609A21700788E2D /* GenderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenderTableViewCell.xib; sourceTree = "<group>"; };
+		4E405C5D2609A44D00788E2D /* ColorTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableTableViewCell.swift; sourceTree = "<group>"; };
+		4E405C5E2609A44D00788E2D /* ColorTableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorTableTableViewCell.xib; sourceTree = "<group>"; };
 		4E9CA5E92606E92D00D9C921 /* TestBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9CA5EC2606E92D00D9C921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E9CA5EE2606E92D00D9C921 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -210,10 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				4E9CA67F2607E04800D9C921 /* MenuViewModel.swift */,
-				4E405C322609396300788E2D /* ColorViewModel.swift */,
-				4E405BEB2608539B00788E2D /* TextFieldViewModel.swift */,
-				4E405C2926086B0A00788E2D /* BirthdayViewModel.swift */,
-				4E405C2C26086B9300788E2D /* GenderViewModel.swift */,
+				4E405C3F26098F0900788E2D /* MenuActionsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -222,12 +221,6 @@
 			isa = PBXGroup;
 			children = (
 				4E9CA61B26070B4800D9C921 /* MenuViewController.swift */,
-				4E405BC126081DE900788E2D /* CameraViewController.swift */,
-				4E405BC726081E4600788E2D /* TextFieldViewController.swift */,
-				4E405BC426081E1400788E2D /* PhotoViewController.swift */,
-				4E405BCA26081E8F00788E2D /* BirthdayViewController.swift */,
-				4E405BCD26081EA500788E2D /* GenderViewController.swift */,
-				4E405BD026081EBC00788E2D /* FavoriteColorViewController.swift */,
 				4E405C3B260988B300788E2D /* MenuActionsViewController.swift */,
 			);
 			path = ViewControlles;
@@ -238,8 +231,18 @@
 			children = (
 				4E9CA6B4260805A900D9C921 /* MenuLabelTableViewCell.swift */,
 				4E9CA6B5260805A900D9C921 /* MenuLabelTableViewCell.xib */,
-				4E405C35260972D800788E2D /* ColorTableViewCell.swift */,
-				4E405C36260972D800788E2D /* ColorTableViewCell.xib */,
+				4E405C43260991D700788E2D /* CameraTableViewCell.swift */,
+				4E405C44260991D700788E2D /* CameraTableViewCell.xib */,
+				4E405C48260992DB00788E2D /* BithdayTableViewCell.swift */,
+				4E405C49260992DB00788E2D /* BithdayTableViewCell.xib */,
+				4E405C4E260999AA00788E2D /* TextFieldTableViewCell.swift */,
+				4E405C4F260999AA00788E2D /* TextFieldTableViewCell.xib */,
+				4E405C5326099E5800788E2D /* PhotoTableViewCell.swift */,
+				4E405C5426099E5800788E2D /* PhotoTableViewCell.xib */,
+				4E405C582609A21700788E2D /* GenderTableViewCell.swift */,
+				4E405C592609A21700788E2D /* GenderTableViewCell.xib */,
+				4E405C5D2609A44D00788E2D /* ColorTableTableViewCell.swift */,
+				4E405C5E2609A44D00788E2D /* ColorTableTableViewCell.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -333,11 +336,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E9CA61F26070BBE00D9C921 /* Menu.storyboard in Resources */,
+				4E405C4B260992DB00788E2D /* BithdayTableViewCell.xib in Resources */,
+				4E405C5626099E5800788E2D /* PhotoTableViewCell.xib in Resources */,
 				4E9CA5F92606E93000D9C921 /* LaunchScreen.storyboard in Resources */,
+				4E405C46260991D700788E2D /* CameraTableViewCell.xib in Resources */,
+				4E405C51260999AA00788E2D /* TextFieldTableViewCell.xib in Resources */,
+				4E405C602609A44D00788E2D /* ColorTableTableViewCell.xib in Resources */,
 				4E9CA5F62606E93000D9C921 /* Assets.xcassets in Resources */,
+				4E405C5B2609A21700788E2D /* GenderTableViewCell.xib in Resources */,
 				4E9CA5F42606E92D00D9C921 /* Main.storyboard in Resources */,
 				4E9CA6B7260805A900D9C921 /* MenuLabelTableViewCell.xib in Resources */,
-				4E405C38260972D800788E2D /* ColorTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,30 +400,26 @@
 			files = (
 				4E9CA6962607E43200D9C921 /* BaseViewModel.swift in Sources */,
 				4E9CA6B6260805A900D9C921 /* MenuLabelTableViewCell.swift in Sources */,
-				4E405C332609396300788E2D /* ColorViewModel.swift in Sources */,
-				4E405BC826081E4600788E2D /* TextFieldViewController.swift in Sources */,
-				4E405BD126081EBC00788E2D /* FavoriteColorViewController.swift in Sources */,
-				4E405C37260972D800788E2D /* ColorTableViewCell.swift in Sources */,
+				4E405C5F2609A44D00788E2D /* ColorTableTableViewCell.swift in Sources */,
 				4E9CA6BF2608118500D9C921 /* ButtonView.swift in Sources */,
 				4E9CA67C2607DCF200D9C921 /* StoryboardUtils.swift in Sources */,
-				4E405BCB26081E8F00788E2D /* BirthdayViewController.swift in Sources */,
 				4E9CA69A2607EA4E00D9C921 /* Extension.swift in Sources */,
-				4E405BEC2608539B00788E2D /* TextFieldViewModel.swift in Sources */,
-				4E405BC226081DE900788E2D /* CameraViewController.swift in Sources */,
+				4E405C4026098F0900788E2D /* MenuActionsViewModel.swift in Sources */,
+				4E405C5A2609A21700788E2D /* GenderTableViewCell.swift in Sources */,
 				4E9CA69E2607F05600D9C921 /* BaseViewController.swift in Sources */,
-				4E405BCE26081EA500788E2D /* GenderViewController.swift in Sources */,
-				4E405C2A26086B0A00788E2D /* BirthdayViewModel.swift in Sources */,
+				4E405C45260991D700788E2D /* CameraTableViewCell.swift in Sources */,
 				4E405C3C260988B300788E2D /* MenuActionsViewController.swift in Sources */,
 				4E9CA6802607E04800D9C921 /* MenuViewModel.swift in Sources */,
 				4E405C302609362B00788E2D /* ColorDB.swift in Sources */,
 				4E9CA6BB26080B7A00D9C921 /* CardView.swift in Sources */,
+				4E405C5526099E5800788E2D /* PhotoTableViewCell.swift in Sources */,
 				4E405BF02608542100788E2D /* TextDB.swift in Sources */,
+				4E405C50260999AA00788E2D /* TextFieldTableViewCell.swift in Sources */,
 				4E9CA61C26070B4800D9C921 /* MenuViewController.swift in Sources */,
 				4E9CA5ED2606E92D00D9C921 /* AppDelegate.swift in Sources */,
+				4E405C4A260992DB00788E2D /* BithdayTableViewCell.swift in Sources */,
 				4E405BDC2608200F00788E2D /* TextFieldCustom.swift in Sources */,
-				4E405C2D26086B9300788E2D /* GenderViewModel.swift in Sources */,
 				4E9CA5EF2606E92D00D9C921 /* SceneDelegate.swift in Sources */,
-				4E405BC526081E1400788E2D /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
